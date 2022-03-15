@@ -1,0 +1,156 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ }
+ html,body{
+ 	width:100%;
+ 	overflow-x:hidden;
+ }
+ body{
+ 	font-style:'Helvetica'; 
+ 	overflow-x:hidden; 
+ }
+.card-text {
+    font-size: 21px;
+    text-align: justify;
+    margin-right: 9%;
+}
+ .bg-primary{
+ 	width:100%;
+ 	background-color:#013551!important; 
+ 	color:#fff; 
+ }
+.bg-primary h1{
+	margin:4%; 
+}
+.navbar .navbar-nav li a {
+    margin: 5px 36px;
+    font-size: 20px;
+    padding: 4px 31px;
+    color:#fff; 
+
+}
+@media screen and (max-width: 992px) {
+ .navbar-nav{
+    background-color:black;
+  }
+  .btn-primary{
+	  margin-left:16%;
+  }
+}
+.navbar{
+	position:absolute; 
+}
+
+.btn-primary {
+    color: #020202;
+    background-color: #ffffff;
+    width:120px;
+    height: 43px;
+    font-weight: 500;
+    border:1px solid #30617b;
+}
+.btn-primary:hover{
+	background-color:#fff; 
+	color:#000; 
+}
+.navbar .navbar-nav #nav-link2{
+	border-bottom: 2px solid #fff;
+}
+.nav-item a:hover {
+    border-bottom: 2px solid #fff;
+}
+.slide{
+	background-image:url(../images/slide.jpg);
+	width:100%;
+	height:584px;
+	background-repeat:no-repeat;
+	background-position:center; 
+}
+.navbar-toggler-icon {
+    background-image: url(../images/menu-toggle.png);
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+	
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+	
+}	
+	
+#card-body{
+    padding: 10px;
+    box-shadow: 5px 10px 11px 0px;
+}
+.btn-primary_large{
+    color: #020202;
+    background-color: #ffffff;
+    width:220px;
+    height: 43px;
+    font-weight: 500;
+    border:1px solid #30617b;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#contact {
+  border-radius: 5px;
+  background-color:#013551;
+  padding: 20px;
+  color:#fff;
+}
+#BUttpon{
+
+}
+.conatct_us{
+	background-color:#f4f3f3; 
+}
+
+.slide h1 {
+	color:#fff; 
+	margin:24%;
+	font-size: xxx-large;
+}
+#PARA{
+	color:#fff; 
+    margin: -23%;
+    width: 56%;
+    margin-left:23%;
+}
+.card-img-top{
+	margin-left:-15%;		
+}
+#card-text{
+	font-size: 21px;
+    text-align: justify;
+   padding-right:20%;	
+}
